@@ -1,7 +1,7 @@
 # EXPERIMENT--01-ALP-FOR-8086
-Name :
-Roll no 
-Date of experiment :
+Name : Supraja B
+Roll no : 2305002026
+Date of experiment : 27.08.2024
 
 
 
@@ -89,16 +89,75 @@ HLT
  ![image](https://github.com/user-attachments/assets/154d5dde-7e1c-4ad7-8a78-88850133b493)
 
 ## Subtraction   of 8 bit numbers  ALP 
- 
+```
+MOV AL,84H
+MOV BL,63H
+SUB AL,BL
+HLT
+```
 ## Output  
+![image](https://github.com/user-attachments/assets/4de7501e-7e38-4c50-a1c5-d8cb484d840f)
+
 ## Multiplication alp 
+```
+MOV AL,75H
+MOV BL,32H
+MUL BL
+HLT
+```
  ## Output  
+![image](https://github.com/user-attachments/assets/d01d9af3-9863-44e1-b40c-6e7b5c5ae82f)
 
 
 ## Division alp 
+```
+MOV AL,68H
+MOV BL,18H
+DIV BL
+HLT
+```
 
 ## Output  
+![image](https://github.com/user-attachments/assets/156a1d0e-c06e-44e1-b3e4-250bc0bb53dd)
 
+## AND of 8 bit ALP
+```
+MOV AL,33H
+MOV BL,44H
+AND AL,BL
+HLT
+```
+## Output
+![image](https://github.com/user-attachments/assets/0432bf0b-871a-4226-9691-335ce075d0a1)
+
+## OR of 8 bit ALP
+```
+MOV AL,45H
+MOV BL,66H
+OR AL,BL
+HLT
+```
+## Output
+![image](https://github.com/user-attachments/assets/315fa5fb-78b9-48c0-be6e-bdda45cbfb56)
+
+## NOT of 8 bit ALP
+```
+MOV AL,65H
+NOT AL
+HLT
+```
+## Output
+![image](https://github.com/user-attachments/assets/1ed4d366-12da-4716-b675-93051dde2365)
+
+## XOR of 8 bit ALP
+```
+MOV AL,66H
+MOV BL,77H
+XOR AL,BL
+HLT
+```
+## Output
+![image](https://github.com/user-attachments/assets/af21941c-0aa0-46c1-b04f-fcfeb052ea8b)
 
 ## Result :
  
